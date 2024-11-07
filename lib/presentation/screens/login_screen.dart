@@ -9,7 +9,7 @@ class _LoginScreenState extends State<LoginScreen> {
   // Controllers to handle user input
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  
+    
   bool _rememberMe = false;
 
   @override

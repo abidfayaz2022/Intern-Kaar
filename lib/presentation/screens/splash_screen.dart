@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:intern_kaar/presentation/screens/auth_screen.dart';
 import 'dart:async';  
-import 'login_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   @override
@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
     Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => LoginScreen()),
+        MaterialPageRoute(builder: (context) => AuthScreen()),
       );
     });
 
