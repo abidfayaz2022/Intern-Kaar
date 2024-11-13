@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intern_kaar/presentation/screens/auth_screen.dart';
+import 'package:intern_kaar/presentation/screens/auth/auth_screen.dart';
 import 'dart:async';  
 
 class SplashScreen extends StatelessWidget {
